@@ -1,0 +1,50 @@
+To run the script, follow these steps:
+
+Make sure that you have Python and  pip (for PyPI modules)  installed on your system. You can check if you have Python installed by running the following command in the terminal or command prompt:
+
+python --version
+
+To install pip , follow the instructions on the Python website (https://www.python.org/) .
+
+Create a folder on your desktop called "screenshots" to store the screenshots. (you have to do this manually to avoid errors and name it screenshots )
+
+Create a text file on your desktop called "results.txt" to store the results of the image comparisons. (you have to do this manually to avoid errors and name it results.txt )
+
+Open the script in a notepad or code editor , change the paths in line 8 and line 9 to the paths of screenshots folder and results.txt .
+
+Go to line 76 and change the url with the one you desire , and the viewport to fit whatever device you want .
+
+You can modify the URL, viewport size, and file paths as needed to suit your requirements. You can also modify the sleep time to adjust the frequency at which the script captures and compares screenshots.
+
+Save the script to a file on your computer, such as "screencomp.py".
+
+Open the terminal or command prompt, and navigate to the directory where you saved the script. For example, if you saved the script to the "scripts" folder on your desktop, you can use the following command:
+
+
+cd C:\Users\pc\Desktop\scripts
+
+
+Replace "pc" with your own user name.
+
+Run  the following command:
+
+
+pip install selenium Pillow time datetime os
+
+
+after the downloads are complete , run this command :
+
+
+python screencomp.py
+
+
+The script will start running and will take a screenshot of the specified URL every day at the time u first ran the script, and compare the new screenshot to the previous one. The difference between the two images will be written to the "results.txt" file. The script will then sleep for 24 hours before taking the next screenshot.
+
+
+To stop the script, press CTRL + C in the terminal or command prompt.
+
+Note that you will need to have the necessary permissions to create files and directories on your system, and to run Python scripts. 
+
+To view the results of the image comparisons, you can open the "results.txt" file in a text editor or viewer. The results will be written to the file in the following format:  YYYY-MM-DD HH:MM:SS: difference%
+
+To view the screenshots, you can open the "screenshots" folder and view the images using an image viewer or editor. The images will be named with a number followed by ".png", starting from 0 and increasing for each new screenshot. 

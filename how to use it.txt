@@ -1,0 +1,13 @@
+1 -Navigate to the "Scripts" tab within the Google Ads interface.
+
+2- Click the "+" button to create a new script.
+
+3- Paste the code in the script1.js file into the script editor.
+
+4- Replace "me@example.com" with your email address to receive the notification.
+
+5- Click the "Save" button to save the script.
+
+6- Click the "Run" button to run the script.
+
+7- If no location targets have been changed within the last 24 hours, you will receive an email notification with the subject line "[Account name]: No location targets changed in last 24 hours".
